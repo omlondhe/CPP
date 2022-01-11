@@ -11,8 +11,8 @@ void printArray(int arr[], int n) {
 
 /*
     1] For loop i from 0 to n - 1
-    2] For loop j from 1 to n - i - 1
-    3] Swap element at j with element at j + 1 if element at j is greater than that of j + 1
+    2] Get the minimum element from range (i + 1) to n
+    3] Replace it with the current pass element
 */
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
